@@ -59,6 +59,7 @@ export async function getStaticProps() {
       // cryptoData : cryData.articles,
   
     },
+    revalidate: 10, 
   };
 }
 
